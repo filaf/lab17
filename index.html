@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простий Сайт з Кнопками</title>
+    <style>
+        /* Стилі для сторінки */
+        * { box-sizing: border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin-top: 20px;
+            color: #333;
+        }
+        .button-container {
+            margin-top: 30px;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn-blue { background-color: #2196F3; color: white; }
+        .btn-red { background-color: #f44336; color: white; }
+        .btn-green { background-color: #4CAF50; color: white; }
+        .btn-yellow { background-color: #FFC107; color: white; }
+
+        button:hover {
+            opacity: 0.8;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Простий Сайт з Кнопочками</h1>
+
+    <div class="button-container">
+        <button class="btn-blue" onclick="alert('Ви натиснули синю кнопку!')">Синя Кнопка</button>
+        <button class="btn-red" onclick="alert('Ви натиснули червону кнопку!')">Червона Кнопка</button>
+        <button class="btn-green" onclick="alert('Ви натиснули зелену кнопку!')">Зелена Кнопка</button>
+        <button class="btn-yellow" onclick="alert('Ви натиснули жовту кнопку!')">Жовта Кнопка</button>
+    </div>
+
+</body>
+</html>
